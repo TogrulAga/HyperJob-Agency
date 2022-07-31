@@ -1,0 +1,12 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: from django.contrib.auth.models import User
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7759#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 26 Jul 2022 20:46:48 UTC
+record: -1

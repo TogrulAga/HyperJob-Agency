@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: The object is changed in the database
+- text: The object isn't changed in the database until you call the save method
+- text: The AttributeError exception is raised
+- text: The attribute is changed in a Python object
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7104#comment
+status: Solved
+record: -1

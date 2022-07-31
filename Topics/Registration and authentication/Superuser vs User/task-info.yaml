@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Superusers can access and modify any data in the database, while usual users
+    can only manipulate the data related to them
+- text: Superusers don't have to authenticate
+- text: Superusers can modify data in the database while usual users cannot
+- text: You cannot login to the service as a superuser
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7753#comment
+status: Solved
+record: -1

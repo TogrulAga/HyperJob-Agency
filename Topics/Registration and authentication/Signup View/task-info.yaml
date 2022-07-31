@@ -1,0 +1,18 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    from django.contrib.auth.forms import UserCreationForm
+    from django.views.generic import CreateView
+
+
+    class MySignupView:
+        ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/7760#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 26 Jul 2022 20:38:40 UTC
+record: -1

@@ -1,0 +1,7 @@
+<form method="get">{%csrf_token%}
+    {% if is_staff %}
+    <button formaction="vacancy/new">Submit vacancy</button>
+    {% else %}
+    <button formaction="resume/new">Submit resume</button>
+    {% endif %}
+</form>
